@@ -1,0 +1,23 @@
+.NodeLabel  {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: auto;
+  text-align: left;
+}
+
+
+
+.NodeLabel tr {
+  list-style-type: none;
+  text-align: left;
+}
+
+.NodeLabel td {
+  margin: 0; 
+  padding: 0;
+  text-align: left;
+}
+
+.NodeLabel table {
+ margin-top: 10px;
+}

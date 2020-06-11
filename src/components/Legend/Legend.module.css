@@ -1,0 +1,63 @@
+.Outer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.Outer table {
+  text-align: left;
+  font-size: x-small;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+
+.Box1 {
+
+  margin-right: 10px;
+}
+
+
+.Box2 {
+
+  margin-left: 10px;
+}
+
+.Box2 table tr td {
+  padding: 2px 15px 2px 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.Dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+.library {
+  background-color: #600000;
+}
+.dry {
+  background-color: #99D2F2;
+}
+.solubilized {
+  background-color: #7AB648;
+}
+
+.vendor {
+  background-color: #FFBD50;
+}
+.screening {
+  background-color: #8F7EB5;
+}
+.master_twin {
+  background-color: #C3D9E4;
+}
+.hit_collection{
+  background-color: #E27D60;
+}
