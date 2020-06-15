@@ -29,7 +29,7 @@ class Dashboard extends Component {
   }
 
   handleTreeUpdate = () => {
-    Axios.get('https://in-91.devl.snet.biobio.tamu.edu/apps/plate-tracker/api/v1/test/getTree.php', { params: { libID : this.state.selectedLibrary}})
+    Axios.get('/apps/plate-tracker/api/v1/getTree.php', { params: { libID : this.state.selectedLibrary}})
     .then(
       (response) => {
         console.log(response.data);
@@ -46,7 +46,7 @@ class Dashboard extends Component {
     this.handleTreeUpdate();
     
 
-    Axios.get('https://in-91.devl.snet.biobio.tamu.edu/apps/plate-tracker/api/v1/test/getLibrary.php')
+    Axios.get('/apps/plate-tracker/api/v1/getLibrary.php')
     .then(
       (response) => {
         //console.log(response.data);
